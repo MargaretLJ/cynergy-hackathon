@@ -9,6 +9,7 @@ import courseImg4 from "../../assets/img1.jpg";
 
 import "./freecourse.css";
 import Freecoursecard from "./Freecoursecard";
+
 const Freecourse = () => {
   const freeCourseData = [
     {
@@ -51,7 +52,7 @@ const Freecourse = () => {
           </Col>
           {freeCourseData.map((item) => (
             <Col lg="3">
-              <Freecoursecard item={item} />
+              <Freecoursecard key={item.id } item={item} />
             </Col>
           ))}
         </Row>

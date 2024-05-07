@@ -7,6 +7,7 @@ import Choose from "../components/Choose-us/Choose";
 import Features from "../components/Features/Features";
 import Freecourse from "../components/Free-course/Freecourse";
 import Testimonials from "../components/Testimonials/Testimonials";
+import Footer from "../components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <Features />
       <Freecourse/>
       <Testimonials/>
+      <Footer/>
     </Fragment>
   );
 };
