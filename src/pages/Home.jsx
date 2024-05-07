@@ -6,6 +6,7 @@ import Courses from "../components/Courses/Courses";
 import Choose from "../components/Choose-us/Choose";
 import Features from "../components/Features/Features";
 import Freecourse from "../components/Free-course/Freecourse";
+import Testimonials from "../components/Testimonials/Testimonials";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Choose />
       <Features />
       <Freecourse/>
+      <Testimonials/>
     </Fragment>
   );
 };
